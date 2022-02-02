@@ -1,0 +1,116 @@
+{
+    "editor.fontFamily": "Monaco",
+    "window.newWindowDimensions": "fullscreen",
+    "window.restoreFullscreen": true,
+    "editor.fontSize": 14,
+    "terminal.external.osxExec": "iTerm.app",
+    "zenMode.hideStatusBar": false,
+    "terminal.integrated.fontSize": 14,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "zenMode.restore": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.letterSpacing": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#242424",
+        "statusBar.noFolderBackground": "#074c6b",
+        "statusBar.debuggingBackground": "#000000"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.py": "python",
+        "*.rb": "ruby",
+        "*.jsx": "javascriptreact",
+        "*.go": "go",
+        "*.org": "org"
+    },
+    "python.languageServer": "Pylance",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "ruby.useBundler": true, //run non-lint commands with bundle exec
+    "ruby.useLanguageServer": true, // use the internal language server (see below)
+    "ruby.format": false,
+    "ruby.intellisense": "rubyLocate",
+    // "ruby.lint": {
+    //     "rubocop": {
+    //       "useBundler": true // enable rubocop via bundler
+    //     },
+    //     "reek": {
+    //       "useBundler": true // enable reek via bundler
+    //     }
+    //   },
+    "solargraph.useBundler": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "[ruby]": {
+        "editor.defaultFormatter": "mbessey.vscode-rufo"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "go.testOnSave": false,
+    "redhat.telemetry.enabled": true,
+    "customizeUI.activityBar":"bottom",
+    "customizeUI.moveStatusbar": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // "customizeUI.titleBar": "frameless"
+    "org.todoKeywords": [
+        "TODO",
+        "LATER",
+        "DONE"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.formatOnSave": true,
+    "terminal.integrated.copyOnSelection": true,
+    "window.zoomLevel": 1,
+    "notebook.output.textLineLimit": 50
+}
